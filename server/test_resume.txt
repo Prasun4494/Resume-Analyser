@@ -1,0 +1,25 @@
+John Doe
+Software Engineer
+Email: john@example.com
+Phone: 123-456-7890
+
+Summary:
+Experienced Full Stack Developer with 5 years of experience in building scalable web applications. Proficient in JavaScript, React, Node.js, and MongoDB.
+
+Skills:
+- Languages: JavaScript, Python, Java
+- Frontend: React, Redux, HTML5, CSS3, Tailwind CSS
+- Backend: Node.js, Express, MongoDB, SQL
+- Tools: Git, Docker, AWS
+
+Experience:
+Senior Software Engineer | Tech Corp | 2020 - Present
+- Led a team of 5 developers to build a specialized e-commerce platform.
+- improved application performance by 40% through code optimization.
+
+Software Engineer | StartUp Inc | 2018 - 2020
+- Developed RESTful APIs for mobile applications.
+- Collaborated with UX/UI designers to implement responsive designs.
+
+Education:
+B.S. Computer Science | University of Technology | 2014 - 2018

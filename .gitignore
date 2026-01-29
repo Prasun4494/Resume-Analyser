@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temp files
+*.tmp
+*.temp
+test_result.txt
+test_openrouter.js
+test_gemini.js
+
+# Uploads (if storing locally)
+uploads/
+*.pdf
+*.docx
+
+# Package lock (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
