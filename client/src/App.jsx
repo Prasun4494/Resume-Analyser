@@ -15,9 +15,10 @@ function App() {
     const formData = new FormData();
     formData.append('resume', file);
 
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
     try {
-      // Assuming server runs on localhost:5000 - In production this should be env var
-      const response = await fetch('http://localhost:5000/api/analyze', {
+      const response = await fetch(`${API_URL}/api/analyze`, {
         method: 'POST',
         body: formData,
       });
@@ -41,7 +42,7 @@ function App() {
       <nav className="w-full py-6 px-8 border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <h1 className="text-2xl font-bold text-white tracking-tight">Smart Resume AI</h1>
-          <div className="text-sm text-slate-500">Powered by Gemini</div>
+          <div className="text-sm text-slate-500">Powered by DeepSeek</div>
         </div>
       </nav>
 
